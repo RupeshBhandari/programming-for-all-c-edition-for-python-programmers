@@ -1,4 +1,4 @@
-# Programming for All: C for Python Programmers
+# Programming for All: C Edition for Python Programmers
 
 ## Table of Contents
 
