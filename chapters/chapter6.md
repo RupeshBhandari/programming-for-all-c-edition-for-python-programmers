@@ -347,7 +347,3 @@ int main() {
     return 0;
 }
 ```
-
----
-
-This chapter highlights the key differences and similarities between Python and C, helping Python programmers transition smoothly to C. Understanding these concepts and pitfalls will make you a more effective C programmer.

@@ -234,7 +234,3 @@ make clean
 - `make` compiles and links the program.
 - `./myprogram` runs the executable.
 - `make clean` removes the object files and executable.
-
----
-
-This chapter covers the use of standard library functions, creating and using header files, and managing builds with linkers and makefiles. These tools are essential for efficient C programming and managing larger projects.

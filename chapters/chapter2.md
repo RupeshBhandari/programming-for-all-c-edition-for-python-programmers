@@ -180,7 +180,3 @@ int main() {
 ```
 **Explanation:**
 - `printf` can handle multiple variables by listing them after the format string.
-
----
-
-By following these sections, Python programmers can start writing and understanding basic C programs, learning the key differences in syntax, structure, and functionality between the two languages.
