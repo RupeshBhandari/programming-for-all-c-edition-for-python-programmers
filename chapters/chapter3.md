@@ -45,7 +45,7 @@ int main() {
 
 C provides a rich set of operators to perform various operations on variables, similar to Python. However, there are differences in how some operators behave.
 
-##### Arithmetic Operators
+##### 3.2.1 Arithmetic Operators
 - `+`: Addition
 - `-`: Subtraction
 - `*`: Multiplication
@@ -83,7 +83,7 @@ int main() {
 - In Python, `/` performs floating-point division by default.
 - In C, `/` performs integer division if both operands are integers. To perform floating-point division, at least one operand must be a float or double.
 
-##### Comparison Operators
+##### 3.2.2 Comparison Operators
 - `==`: Equal to
 - `!=`: Not equal to
 - `>`: Greater than
@@ -123,7 +123,7 @@ int main() {
 **Explanation:**
 - Both Python and C use similar comparison operators, but in C, the result of a comparison is 0 (false) or 1 (true), which can be used directly in arithmetic expressions.
 
-##### Logical Operators
+##### 3.2.3 Logical Operators
 - `&&`: Logical AND
 - `||`: Logical OR
 - `!`: Logical NOT
@@ -159,7 +159,7 @@ int main() {
 
 Control structures allow you to control the flow of execution in your programs. Python and C share similar control structures, but with different syntax.
 
-##### Conditionals
+##### 3.3.1 Conditionals
 - `if`
 - `else if` (`elif` in Python)
 - `else`
@@ -199,7 +199,7 @@ int main() {
 - In Python, `elif` is used for additional conditions.
 - In C, `else if` is used.
 
-##### Loops
+##### 3.3.2 Loops
 - `for`
 - `while`
 - `do-while` (only in C)
@@ -251,6 +251,8 @@ int main() {
 
 #### 3.4 Functions
 
+
+##### 3.4.1 Function Definition
 Functions are reusable blocks of code that perform a specific task. Both Python and C use functions, but with different syntax and some variations in usage.
 
 **Python:**
@@ -285,7 +287,7 @@ int add(int a, int b) {
 - In Python, functions are defined with the `def` keyword and do not require explicit type declarations for parameters or return values.
 - In C, functions must be declared before use (either via a prototype or definition), and the types of parameters and return values must be specified.
 
-##### Function Prototypes
+##### 3.4.2 Function Prototypes
 Function prototypes are declarations of functions that specify their return types and parameters. They are usually placed at the beginning of the file, before the `main` function.
 
 **Python:** Function definitions can appear in any order as long as they are called after their definition.
@@ -314,7 +316,7 @@ int multiply(int a, int b) {
 }
 ```
 
-##### Scope and Lifetime of Variables
+##### 3.4.3 Scope and Lifetime of Variables
 Variables in C have different scopes and lifetimes based on where they are declared.
 
 **Python:**
